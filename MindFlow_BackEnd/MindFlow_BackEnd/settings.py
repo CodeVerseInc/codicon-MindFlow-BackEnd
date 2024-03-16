@@ -36,7 +36,10 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.staticfiles',  
+     
+    # Add the MindFlow app to the list of installed apps
+    'MindFlow.apps.MindflowConfig', 
 ]
 
 MIDDLEWARE = [
