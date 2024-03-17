@@ -1,5 +1,7 @@
-call .\venv\Scripts\activate
+#!/bin/bash
 
-cd .\MindFlow_BackEnd\MindFlow_BackEnd
+source ./venv/bin/activate
+
+cd ./MindFlow_BackEnd/MindFlow_BackEnd
 
 python manage.py runserver
