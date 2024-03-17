@@ -70,7 +70,9 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'MindFlow_BackEnd.wsgi.application'
+WSGI_APPLICATION = 'MindFlow_BackEnd.wsgi.application' 
+ 
+AUTH_USER_MODEL = 'MindFlow.Users'  # Add this line
 
 
 # Database
